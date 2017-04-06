@@ -8,6 +8,7 @@ from files import *
 from sprites import *
 from animations import *
 from crafts import *
+from backgrounds import *
 
 # Read room data
 rooms = list(load_rooms())
@@ -16,6 +17,7 @@ files = files_dictionary()
 sprites = sprites_dictionary()
 animations = animations_dictionary()
 crafts = crafts_dictionary()
+backgrounds = backgrounds_dictionary()
 
 print("Rooms: {0} total".format(len(rooms)))
 print("Characters: {0} total".format(len(characters)))
@@ -25,7 +27,7 @@ print("Crafts: {0} total".format(len(crafts)))
 
 #print.pprint(rooms)
 #pprint.pprint(characters)
-pprint.pprint(animations)
+pprint.pprint(backgrounds)
 #pprint.pprint(animations)
 
 #print("Saving animations ..")
